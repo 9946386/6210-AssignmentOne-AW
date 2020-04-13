@@ -1,4 +1,4 @@
-<div class="container" style="width: 80% !important;">
+<div class="container" style="width: 80%;">
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>

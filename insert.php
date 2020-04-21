@@ -4,7 +4,7 @@
 <div class="container">
     <!-- Title -->
     <h3><br>Enter new SCP Subject Form<br><br></h3>
-    <!-- Creating the form for subject entries -->
+    <!-- Creating the form to add new subjects to the database -->
     <form name="insert" method="POST" action="connection.php" class="form-group">
         <div class="form-group row">
 

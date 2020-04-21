@@ -17,10 +17,10 @@
               // Run sql command to select record based on get value
               $record = $connection->query("select * from subject where item_no='$item_number'") or die($connection->error());
 
-              // Convert $record into an array for us to print to screen
+              // Convert $record into an array for it to be printed to the screen
               $row = $record->fetch_assoc();
               
-              // Create variables that hold data from database fields
+              // Create variables that hold the data from the database fields
               $item = $row['item_no'];
               $object_class = $row['object_class'];
               $procedures = $row['procedures'];
@@ -29,7 +29,7 @@
               $subject_image = $row['subject_image'];
               $additional_notes = $row['additional_notes'];
 
-              // Take out \n and replace with <br><br>
+              // Take out the \n and replace with <br><br>
               $procedures = str_replace('\n', '<br><br>', $procedures);
               $description = str_replace('\n', '<br><br>', $description);
               $reference = str_replace('\n', '<br><br>', $reference);
@@ -38,8 +38,7 @@
               // If subject does not have an image
               if(empty($subject_image))
               {
-                // Display the subject without the photo section
-                
+                // Display the subject without the photo section                
                 echo "<h1>SCP Subject Database</h1>
                 <br>
                 <h2>Item_#: {$item}</h2>

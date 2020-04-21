@@ -36,21 +36,21 @@
             <label for="description" class="col-sm-3 col-form-label">Enter Subject Description Details</label>
             <br>
             <div class="col-sm-9">
-                <textarea name="description" rows="10" class="form-control" required  id="description" placeholder="Separate Paragraphs with \n"></textarea>
+                <textarea name="description" rows="10" class="form-control" required  id="description" placeholder="Enter 'null' if not applicable -- Separate Paragraphs with \n"></textarea>
             </div>
             
             <!-- Subject Procedures -->
             <label for="procedures" class="col-sm-3 col-form-label">Enter Containment Procedures</label>
             <br>
             <div class="col-sm-9">
-                <textarea name="procedures" rows="10" class="form-control" requried id="procedures" placeholder="Separate Paragraphs with \n"></textarea>
+                <textarea name="procedures" rows="10" class="form-control" requried id="procedures" placeholder="Enter 'null' if not applicable -- Separate Paragraphs with \n"></textarea>
             </div>
 
             <!-- Subject Reference -->
             <label for="reference" class="col-sm-3 col-form-label">Enter Containment Reference</label>
             <br>
             <div class="col-sm-9">
-                <textarea name="reference" rows="10" class="form-control" requried id="reference" placeholder="Separate Paragraphs with \n"></textarea>
+                <textarea name="reference" rows="10" class="form-control" requried id="reference" placeholder="Enter 'null' if not applicable -- Separate Paragraphs with \n"></textarea>
             </div>
 
             <!-- Subject Additional Notes -->
@@ -61,15 +61,15 @@
             </div>
 
             <!-- Submit Button -->
-            <input type="submit" class="btn btn-danger" name="submit" value="Submit Subject Data">
+            <div class="container">
+                <input type="submit" class="btn btn-danger" name="submit" value="Submit Subject Data">
+            </div>
         </div>
     </form>
 
     <!-- Footer -->
-    <div class="container">
         <footer class="page-footer font-small bg-light rounded">
             <div class="footer-copyright text-center py-3">© 2020 Copyright: Comp.6210 Assignment 1 - 9946386 - Anya Webb</div>
         </footer>
-    </div>
 
 </div>

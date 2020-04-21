@@ -7,21 +7,21 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-        <img src="SCP002.jpg" class="d-block w-100" alt="...">
+        <img src="images/SCP002.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
             <h5>SCP Subject 002</h5>
             <p>SCP-002 in its containment area</p>
         </div>
         </div>
         <div class="carousel-item">
-        <img src="SCP004.jpg" class="d-block w-100" alt="...">
+        <img src="images/SCP004.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
             <h5>SCP Subject 004</h5>
             <p>SCP-004-1</p>
         </div>
         </div>
         <div class="carousel-item">
-        <img src="SCP005.jpg" class="d-block w-100" alt="...">
+        <img src="images/SCP005.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
             <h5>SCP Subject 005</h5>
             <p>A close up of SCP-005</p>

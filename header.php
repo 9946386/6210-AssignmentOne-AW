@@ -15,7 +15,7 @@
 
     <!-- SCP Logo -->
     <div class="text-center">
-        <a class="logo-link" href="index.php"><img class="img-fluid"src="scp-logo.jpg" alt="SCP Logo"></a>
+        <a class="logo-link" href="index.php"><img class="img-fluid"src="images/scp-logo.jpg" alt="SCP Logo"></a>
     </div>
 
     <!-- Navigation Container -->
